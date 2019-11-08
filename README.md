@@ -1,5 +1,7 @@
 # react-learning 
 
+[![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][codecov-image]][codecov-url] [![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
+
 My React codebox learning repository, with useful pieces of code and practical examples.
 
 ## Learning Topics
@@ -105,3 +107,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+[travis-image]: https://img.shields.io/travis/pauloluan/react-learning/master.svg?style=for-the-badge
+[travis-url]: https://travis-ci.com/pauloluan/react-learning
+[daviddm-image]: https://img.shields.io/david/pauloluan/react-learning.svg?style=for-the-badge
+[daviddm-url]: https://david-dm.org/pauloluan/react-learning
+[codecov-image]: https://img.shields.io/codecov/c/github/pauloluan/react-learning/master.svg?style=for-the-badge
+[codecov-url]: https://codecov.io/github/pauloluan/react-learning?branch=master
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
+[standard-url]: http://npm.im/standard
+[60time-image]: https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
+[60time-url]: https://forthebadge.com
