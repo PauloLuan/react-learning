@@ -1,8 +1,9 @@
 import React from 'react'
+import SimpleStore from './todo-simple-store/App'
 
 const App = () => (
   <div>
-    <h1>teste</h1>
+    <SimpleStore />
   </div>
 )
 
