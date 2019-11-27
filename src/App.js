@@ -1,9 +1,11 @@
 import React from 'react'
-import SimpleStore from './todo-simple-store/App'
+// import SimpleStore from './todo-simple-store/App'
+import Pokemon from './pokemon'
 
 const App = () => (
   <div>
-    <SimpleStore />
+    {/* <SimpleStore /> */}
+    <Pokemon />
   </div>
 )
 
