@@ -26,7 +26,7 @@ export const handlers = {
     },
 
     successFetchPokemons: (state = INITIAL_STATE, action) => {
-        return {...state, loading: false, ...action.payload}
+        return {...state, loading: false, pokemons: [...action.payload]}
     }
 } 
 
