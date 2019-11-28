@@ -1,5 +1,5 @@
-import { delay, takeEvery, put } from 'redux-saga/effects'
-// import * as service from '../service/api'
+import { delay, takeEvery, call, put } from 'redux-saga/effects'
+import * as service from '../service/api'
 import { PokemonTypes, actions } from '../ducks/pokemon'
 
 const mockApiResponse = {
@@ -24,9 +24,10 @@ const mockApiResponse = {
 
 
 function * fetchPokemons () {
-  // const pokemons = yield call(service.getPokemons)
+  const pokemons = yield call(service.getPokemons)
+  console.log(pokemons)
   yield delay(500)
-  const pokemons = mockApiResponse.results
+  // const pokemons = mockApiResponse.results
   yield put(actions.successFetchPokemons(pokemons))
 }
 
